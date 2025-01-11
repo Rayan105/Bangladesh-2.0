@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-body{
+
+body {
     font-family: "Fira Sans", serif;
     background-color: #F1F1F3;
 }
+
 /* nav style */
 .sign-in-color {
     font-size: 18px;
@@ -86,14 +88,15 @@ nav {
     margin-right: 160px;
 }
 
-.future-visions{
+.future-visions {
     display: flex;
     justify-content: space-around;
     gap: 24px;
     align-items: center;
     margin-bottom: 80px;
 }
-.transformation{
+
+.transformation {
     background-color: rgba(84, 144, 245, 0.2);
     padding: 32px;
     margin-top: 24px;
@@ -101,11 +104,13 @@ nav {
     width: 410px;
     height: 270px;
 }
-.transformation-tittle{
+
+.transformation-tittle {
     font-size: 20px;
     font-weight: 700;
 }
-.energy{
+
+.energy {
     background-color: #C6E4D6;
     padding: 32px;
     margin-top: 24px;
@@ -113,11 +118,13 @@ nav {
     width: 410px;
     height: 270px;
 }
-.energy-tittle{
+
+.energy-tittle {
     font-size: 20px;
     font-weight: 700;
 }
-.infrastructure{
+
+.infrastructure {
     background-color: #F7EBCF;
     padding: 24px;
     margin-top: 24px;
@@ -125,7 +132,8 @@ nav {
     width: 410px;
     height: 290px;
 }
-.infrastructure-tittle{
+
+.infrastructure-tittle {
     font-size: 20px;
     font-weight: 700;
 }
@@ -138,15 +146,18 @@ nav {
     justify-content: center;
     padding: 50px;
 }
-.chobi{
+
+.chobi {
     margin-bottom: -58px;
 }
+
 .text {
     font-size: 16px;
     font-weight: 400;
     color: #0E0E0E;
 
 }
+
 .name {
     font-size: 20px;
     font-weight: 600;
@@ -160,6 +171,7 @@ nav {
     color: #0E0E0E;
     margin-top: 4px;
 }
+
 .satellite1 {
     display: flex;
     justify-content: center;
@@ -170,6 +182,7 @@ nav {
     margin-bottom: 24px;
     padding: 48px;
 }
+
 .satellite2 {
     display: flex;
     justify-content: center;
@@ -180,10 +193,11 @@ nav {
     margin-bottom: 24px;
     padding: 48px;
 }
-.satellite-chobi{
+
+.satellite-chobi {
     width: 408px;
     height: 306px;
-    
+
     border-radius: 24px;
 }
 
@@ -191,28 +205,93 @@ nav {
     font-size: 18px;
     font-weight: 600;
 }
+
 .btn-design {
     background-color: #006A50;
     border-radius: 8px;
-    border: 1px;
     padding: 13px 26px;
     color: #FFFFFF;
 }
 
+.donate-text,
+.donate-description {
+    text-align: center;
+}
 
+.taka {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
 
+.border {
+    border: 1px solid;
+    border-color: black;
+    width: 250px;
+    height: 128px;
+    padding: 40px;
+    border-radius: 16px;
 
-
+}
 
 /* footer styles */
 
 .footer-bg {
     background-color: #C6E4D6;
     text-align: center;
+    width: 1280;
+    height: 295px;
+    padding: 80px 265px;
+    border-radius: 24px;
+    margin: 80px 160px;
+}
+
+.footer-elements {
+    text-align: center;
+    background-color: white;
+    padding: 50px 160px;
+}
+
+.first-tittle {
+    font-size: 40px;
+    font-weight: 700px;
+    height: 48px;
+    width: 622;
+}
+
+.first-description {
+    font-size: 16px;
+    font-weight: 400px;
+    height: 48px;
+    width: 622;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+p {
+    color: rgba(14, 14, 14, 0.7);
 }
 
 .last {
-    display: contents;
+    display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.last-part {
+    width: 600px;
+    height: 55px;
+    padding-left: 40px;
+    border: none;
+    border-radius: 12px 0px 0px 12px;
+    
+}
+
+.subscribe-btn {
+    background-color: #006A50;
+    border: none;
+    font-weight: 600;
+    border-radius: 0px 12px 12px 0px;
+    height: 57px;
+    width: 150px;
+    color:#FFFFFF;
 }
