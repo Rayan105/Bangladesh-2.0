@@ -287,6 +287,21 @@ nav {
     margin: 80px 160px;
 }
 
+.taka-amount{
+    font-size: 40px;
+    font-weight: 700;
+    width: 160 px;
+    height: 48px;
+    padding: 40px;
+    color: rgba(14, 14, 14, 0.8);
+    background-color: white;
+    border-radius: 16px; 
+    border: 1px solid;
+    cursor: pointer;
+}
+.taka-amount:hover{
+    background-color: yellowgreen;
+}
 .taka {
     display: flex;
     justify-content: center;
@@ -297,16 +312,25 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: white;
+    margin-left: 100px;
     width: 1032px;
     height: 64px;
-    /* padding: 20px 40px; */
+}
+/* .area-of-text::placeholder{
+    text-align: center;
+
+} */
+.area-of-text{
+    border: none;
+    text-align: center;
+    outline: none;
 }
 
 .dnt {
     display: flex;
     justify-content: center;
-    align-content: center;
-    flex-direction: column;
+    text-decoration: none;
 }
 .donate-btn{
     background-color: #006A50;
@@ -320,34 +344,12 @@ nav {
     cursor: pointer;
     display: flex;
     justify-content: center;
-    align-items: center;
+    margin-top: 32px;
 }
+.a{
+    text-decoration: none;
+    color: white;
 
-.border {
-    border: 1px solid;
-    border-color: black;
-    width: 240px;
-    height: 128px;
-    /* padding: 40px; */
-    border-radius: 16px;
-    cursor: pointer;
-}
-
-.border :hover {
-    border: 1px solid;
-    border-color: black;
-    background-color: red;
-    width: 240px;
-    height: 128px;
-    border-radius: 16px;
-    padding: -40px;
-}
-
-.taka-amount {
-    font-size: 40px;
-    font-weight: 700;
-    width: 160 px;
-    height: 48px;
 }
 
 /* subscribe newsletter */
